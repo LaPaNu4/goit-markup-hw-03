@@ -45,6 +45,7 @@ img {
 
 h1.hidden {
   visibility: hidden;
+  display: none;
 }
 /* header */
 .header {
@@ -257,8 +258,8 @@ h1.hidden {
 .under-img {
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .footer p {
   width: 264px;
@@ -298,7 +299,7 @@ h1.hidden {
 }
 .filter {
   padding-bottom: 120px;
-  padding-top: 68px;
+  padding-top: 120px;
 }
 .footer a {
   display: flex;
